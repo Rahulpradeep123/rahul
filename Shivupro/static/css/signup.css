@@ -1,0 +1,81 @@
+
+        
+         body
+         {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-image: url("../images/z11.jpg");
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-size: cover;
+           
+            
+         }   
+         .container
+         {
+            
+            background-size: cover;
+            
+            width: 400px;
+            height: 450px;
+            margin:auto;
+            border-radius: 3px;
+            justify-content: center;
+            color: white;
+            
+
+         }
+         h1
+         {
+            text-align: center;
+            padding: 15px;
+
+         }
+         form{
+            width: 300px;
+            margin-left: 20px;
+            font-size: 10px;
+         }
+         form label{
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+         }
+         form input{
+            
+            padding: 7px;
+            border: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            
+            text-align: left;
+            right: 0%;
+            justify-content: left;
+            width: 350px;
+            
+         
+         }
+         input[type="submit"]{
+            width: 320px;
+            height: 35px;
+            margin-left: 20px;
+            margin-top: 40px;
+            border:none;
+            background-color: #0cfa50;
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            justify-content: center;
+         
+
+         }
+
+        
+   
+            
+
+            
+                
+            
+        

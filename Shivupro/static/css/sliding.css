@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body{
+    background-image: url("../images/z1.jpeg");
+    background-size: cover;
+   overflow-x:hidden;
+   
+
+}
+
+.container{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale:1.5 ;
+    padding-top:100px;
+}
+
+.card{
+    width: 300px;
+    height: 250px;
+    color: rgb(14, 15, 15);
+    background-color: rgb(237, 233, 233);
+    border-radius: 20px;
+    transition: 0.5s;
+    margin: 50px;
+}
+
+.card .img{
+    width: 260px;
+    height: 260px;
+    position: relative;
+    z-index: 1;
+
+    top:-50px;
+    left: 20px;
+}
+
+.card .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.card .content{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    transform: translateY(-150px);
+    opacity: 0;
+  
+}
+
+.card:hover{
+    height: 420px;
+    
+}
+
+.card:hover .content{
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.box{
+    display:block;
+}
+input{
+    width: 100%;
+    background-color: rgb(4, 248, 36);
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 20px;
+    font-size:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+}
