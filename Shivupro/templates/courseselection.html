@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>home</title>
+      <link rel="stylesheet" href="../static/css/courseselection.css">
+    
+    </head>
+    <script>
+        function la(src)
+        {
+          window.location=src;
+        }
+      </script>
+      
+    <body>
+        <div class="container">
+            <div><label  for="SSLC">*CHOOSE AFTER SSLC*</label><br><hr>
+                <select onchange=la(this.value) name="course" id="sslc" style="height:  30px ;width:250px" >
+                  <option select hidden value="" >Select</option>
+
+                    <option  value="/science"  style="height:  30px ;width:250px">Science</option>
+                    <option value="/commerce">Commerce</option>
+                    <option value="/arts">Arts</option>
+                    <option value="/diplamo">Diploma</option>
+                    </div>
+                </select>
+                </div>
+            <div><label  for="SSLC">*CHOOSE AFTER PUC*</label><br><hr>
+                <select onchange=la(this.value) name="course" id="sslc" style="height:  30px ;width:250px" >
+                  <option select hidden value="" >Select</option>
+                    <option  value="/medical" >MEDICAL</option>
+                    <option value="/engineering">ENGINEERING</option>
+                    <option value="/agbsc">AGBSE</option>
+                    <option value="/degree">DEGREE</option>
+                </select>
+                </div>
+            <div><label  for="SSLC">*CHOOSE AFTER DEGREE*</label><br><hr>
+                <select onchange=la(this.value) name="course" id="sslc" style="height:  30px ;width:250px" >
+                  <option select hidden value="" >Select</option>
+                    <option  value="/mca" >MCA</option>
+                    <option value="/mcom">MCOM</option>
+                    <option value="/msc">MSC</option>
+                    <option value="mba">MBA</option>
+                </select>
+                </div>
+        </div>
+    </body>
+</html>
